@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mneghitung Luas & keliling segitiga</title>
+  </head>
+  <body>
+    <header id="navigation-bar">
+      <h1 id="content">Katik</h1>
+      <nav class="navigation">
+        <a href="#LuasSegitiga">Luas Segitiga</a>
+        <a href="#KelilingSegitiga">Keliling Segitiga</a>
+      </nav>
+    </header>
+
+    <main>
+      <div id="LuasSegitiga">
+        <h2>Luas segitiga</h2>
+        <img src="img/Luas segitiga.jpg" alt="" width="800px" height="400px" />
+        <section class="inputSection">
+          <h2>masukan Luas segitiga</h2>
+          <form id="LuasId">
+            <div class="input">
+              <label for="inputAlas">Alas</label>
+              <input id="inputAlas" type="number" />
+            </div>
+            <div class="input">
+              <label for="inputTinggi">Tinggi</label>
+              <input id="inputTinggi" type="number" />
+            </div>
+            <button id="LuasSubmit" type="submit"><span>Hitung</span></button>
+            <div id="output"></div>
+            <button class="clearSubmit" type="submit">
+              <span>clear</span>
+            </button>
+          </form>
+        </section>
+      </div>
+
+      <!-- keliling segitiga -->
+
+      <div id="KelilingSegitiga">
+        <h2 class="content">keliling Segitiga</h2>
+        <img src="img/keliling segitiga.jpg" alt="" width="800px" height="400px" />
+        <section class="inputSection">
+          <h2>masukan Keliling segitiga</h2>
+          <form id="kelilingId">
+            <div class="input">
+              <label for="inputA">A</label>
+              <input id="inputA" type="number" />
+            </div>
+            <div class="input">
+              <label for="inputB">B</label>
+              <input id="inputB" type="number" />
+            </div>
+            <div class="input">
+              <label for="inputC">C</label>
+              <input id="inputC" type="number" />
+            </div>
+            <button id="KelilingSubmit" type="submit"><span>Hitung</span></button>
+            <div id="text"></div>
+            <button class="Delete" type="submit">
+              <span>clear</span>
+            </button>
+          </form>
+        </section>
+      </div>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
